@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://backend-geolocator.vercel.app',
+  baseURL: process.env.BACKEND,
 });
 
 export default api;
