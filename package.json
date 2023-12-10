@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "proxy":"https://backend-geolocator.vercel.app"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
